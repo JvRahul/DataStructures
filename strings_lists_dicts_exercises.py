@@ -63,7 +63,7 @@ print(primeNum(L))
 # print(3//2)
 
 
-#Interview Questions
+
 
 #Count distinct words in a sentence
 dict = {}
@@ -135,16 +135,16 @@ return L
 
 
 
-Ensure you take care of case input[None] which means None object.
-Hi, Can you please elaborate on the python questions please.
-1. Is the question to replace None with preceding value?
-2. Is the second question to find the number of occurrences or the position of s in the given word
-Find common words in 2 sentences
+# Ensure you take care of case input[None] which means None object.
 
-Question 1:
+# 1. Is the question to replace None with preceding value?
+# 2. Is the second question to find the number of occurrences or the position of s in the given word
+# Find common words in 2 sentences
+
+# Question 1:
 # Complete a function that returns the number of times a given character occurs in the given string
 
-Enter a string and a character sample(mississippi,s): missiSSippi,S
+# Enter a string and a character sample(mississippi,s): missiSSippi,S
 def findCharNum(s,c):
 /*
 * returns the number of times a given character occurs in the given string
@@ -247,24 +247,25 @@ for
 
 # Question 3:
 # Complete a function that returns a list containing all the mismatched words (case sensitive) between two given input strings
-3. [[A],[A,B],[A,C],[B,D],[C,A]] -- Find the alphabet with highest neighbors? -- (Wasnt able to solve because of time limit but the interviewer was like I get what…
-Python Questions:
-Avg length of words, some of the edge cases are having spaces in the beginning and end of the words, returning a float instead of int, returning None for blank input.
-Valid ip address, edge case to remember is if there are alphanumeric characters.
+# 3. [[A],[A,B],[A,C],[B,D],[C,A]] -- Find the alphabet with highest neighbors? -- (Wasnt able to solve because of time limit but the interviewer was like I get what…
+# Python Questions:
+# Avg length of words, some of the edge cases are having spaces in the beginning and end of the words, returning a float instead of int, returning None for blank input.
+# Valid ip address, edge case to remember is if there are alphanumeric characters.
 
-•	Python Valid IP address   2 Answers
-•	Python graph node count   3 Answers
-•	Python average word length   2 Answers
-Python
-1. Count the number of unique words in a sequence?
-2. Print the part of the array of numbers
-3. Check the substring in the string
-4. Question on exceptions
-.Python Questions -
+# •	Python Valid IP address   2 Answers
+# •	Python graph node count   3 Answers
+# •	Python average word length   2 Answers
+# Python
+# 1. Count the number of unique words in a sequence?
+# 2. Print the part of the array of numbers
+# 3. Check the substring in the string
+# 4. Question on exceptions
 
-1) Print Max element of a given list
-2) Print median of a given list
-3) Print the first nonrecurring element in a list
+# Python Questions -
+# 1) Print Max element of a given list
+# 2) Print median of a given list
+# 3) Print the first nonrecurring element in a list
+
 L = ['a','b','a']
 
 def frst_recur(L):
@@ -284,7 +285,7 @@ def frst_recur(L):
 
 print(frst_recur(L))
 
-4) Print the most recurring element in a list
+# 4) Print the most recurring element in a list
 
 # L = [2, 1, 2, 2, 1, 3] 
 L = ['Dog', 'cat', 'dog', 'dog', 'Dog']
@@ -311,7 +312,7 @@ def mostRecur(L):
 
 print(mostRecur(L))
 
-5) Greatest common Factor
+# 5) Greatest common Factor
 
 
 def computeGCD(x, y): 
@@ -338,11 +339,11 @@ print(abs(-123))
 
 
 
-Find common words in 2 sentences  
-sent_1 = 'A blue whale is whale which is blue'
-sent_2 = 'The blue ocean has whales which are blue'
+# Find common words in 2 sentences  
+# sent_1 = 'A blue whale is whale which is blue'
+# sent_2 = 'The blue ocean has whales which are blue'
 
-whether [] is monotonic:
+# whether [] is monotonic:
 def m_increasing(A):
   if len(A) == 0:
 	return 0
@@ -422,6 +423,7 @@ def uncom(str1, str2):
 print(uncom(str1, str2))
 
 
+# ipv4 and ipv6 validation check:
 
 def ipv4(s):
 	try: return str(int(s)) == s and 0 < = int(s) <= 255
